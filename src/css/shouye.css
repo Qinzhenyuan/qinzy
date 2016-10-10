@@ -1,0 +1,266 @@
+		
+       
+		
+		.zhong{
+				width: 1200px;
+				height: 40px;
+				border-bottom: solid 3px rgb(177,25,26);
+			}
+		.zhong ul li{
+			float: left;
+			margin-left: 40px;
+			
+		}	
+		.zhong .dt{
+			width: 215px;
+			height: 40px;
+			background: rgb(177,25,26);
+			text-align: center;
+			line-height: 40px;
+			
+		}
+		
+		#chufu{
+			width: 1235px;
+			height: 500px;
+		}
+		
+
+		#nav-left{
+			width: 215px;
+			height: 470px;
+			background: rgb(200,22,35);
+			color: white;
+			font-size: 12px;
+			margin-left: 40px;
+			overflow: hidden;
+			float: left;
+		
+		}
+		
+		#nav-left div i{
+			margin-left: 170px;
+			float: left;
+			margin-top: -16px;
+		
+			
+		}
+		#nav-left div{
+			margin:10px 0 10px 30px;
+		}	
+		#nav-left a{
+			color: white;
+		}
+		
+	/*	 right*/
+
+	
+	/*	 right*/
+		#lbt{
+			float: left;
+			margin: 10px;
+			
+	
+		}
+			#nav-right{
+			width: 230px;
+			height: 210px;     	
+     		float: left;
+     		margin: 10px 0;
+		}
+		#nav-right .genduo{
+			margin-left: 150px;
+			
+		}
+		#nav-right h2{
+			background: rgb(238,238,238);
+		}
+		#nav-right .mc{
+			margin-top: 20px;
+		}
+		#nav-right .let li{
+			float: left;
+			margin-left: 20px;
+			margin-top: 10px;
+			
+		}
+		#nav-right .mt2{
+			margin-top: 20px;
+		}
+	#jinri{
+		margin-left: 40px;
+	}	
+		
+      /*横排轮播图*/
+			
+			#lbbttt a img{
+				float: left;
+			}
+			
+		/*猜你喜欢	*/
+		#caini{
+			margin-left: 40px;
+			width: 1200px;
+			height:280px ;
+			border: 1px solid black;
+			margin-bottom: 20px;
+		}
+		#caini .huan{
+			font-size: 18px;
+			margin-left: 1000px;
+			
+			
+		}
+		#caini ul li{
+			float: left;
+			width: 200px;
+			height: 240px;
+			
+			
+			
+		}
+		#jiazai ul li img {
+				width: 130px;
+				height: 130px;
+			}
+		
+			
+		#jiazai  ul li p {
+				width: 130px;
+				height: 37px;
+				overflow: hidden;
+				text-align: center;
+				
+				
+			}	
+			ul li .aa{
+			    margin: 10px 0;
+			  
+			 
+			}
+			ul li .bb{
+				color: red;
+				font-size: 20px;
+				font-weight: 800;
+				margin: 10px 0;
+			}	
+		/*品质生活	*/
+		.pingzhi{
+			margin-left: 40px;
+			width: 1200px;
+			height: 420px;
+			border: 1px solid black;
+			margin-bottom: 20px;
+			
+		}
+		.pingzhi h3{
+			float: left;
+			margin-top: 20px;
+			margin-left: 220px;
+		}
+			
+		.xlogo{
+			width: 1250px;
+			margin-left: 40px;
+		}
+		.xlogo li{
+			float: left;
+			
+		}	
+			
+			
+
+	
+			
+			/*楼层*/
+				#LoutiNav {
+				width: 32px;
+				position: fixed;
+				top: 150px;
+				left: 2px;
+				border: 1px solid #ddd;
+				display: none;
+				z-index: 10;
+			}
+			#LoutiNav ul li {
+				width: 32px;
+				height: 32px;
+				border-bottom: 1px dotted #DDDDDD;
+				list-style: none;
+				font-size: 12px;
+				color: #666;
+				text-align: center;
+				line-height: 32px;
+				position: relative;
+				cursor: pointer;
+			}
+			#LoutiNav ul li span {
+				width: 32px;
+				height: 32px;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			#LoutiNav ul li span {
+				display: none;
+			}
+			#LoutiNav ul li.last {
+				background: #C00;
+				color: #fff;
+				border-bottom: 1px solid #ddd;
+			}
+			#LoutiNav ul li.hover span {
+				background: #c00;
+				color: #fff;
+				display: block;
+			}
+			#LoutiNav ul li.hover span.active {
+				background: #c00;
+				color: #fff;
+				display: block;
+			}
+			#LoutiNav ul li span.active {
+				background: #fff;
+				color: #c00;
+				display: block;
+			}
+		
+			#main {
+				width: 1230px;
+				
+				background: #66ff66;
+				margin: 0 auto;
+			}
+			#main .Louti {
+				
+				height: 950px;
+				width: 1230px;
+				
+				color: #fff;
+				font-weight: bold;
+				
+				
+			}
+			/*#footer {
+				width: 1000px;
+				height: 400px;
+				background: red;
+				margin: 0 auto;
+			}*/
+			
+		.leftimg{
+			float:left;
+		}	
+		  .lb ul li{
+		  	width: 200px;
+		  	height: 240px;
+		  	border: 1px solid silver;
+		  	float: left;
+		  	margin: 10px 0;
+		  	text-align: center;
+		  
+		  }
+        .lb1 ul li{
+        	float: left;
+        
+        }

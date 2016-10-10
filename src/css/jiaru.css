@@ -1,0 +1,47 @@
+	.cheng{
+			width: 1000px;
+			
+			line-height: 50px;
+			height: 150px;
+			
+			
+		}
+          .cheng .cx{
+          	font-size: 30px;
+          	color: lawngreen;
+          	float: left;
+          	margin: 30px 0  0 200px;
+       
+          }
+         .cheng p{
+         	padding-top: 30px;
+         }
+       
+		.js{
+			display: block;
+			width: 150px;
+			height: 40px;
+			background: rgb(228,61,64);
+			color: white;
+			text-align: center;
+			line-height: 40px;
+			float: left;
+			margin-top: 30px;
+		}
+		.jiaz{
+			margin-left: 100px;
+			margin-top: 30px;
+		}
+		.jiaz ul li{
+			float: left;
+			width: 240px;
+			height: 310px;
+			border: 1px solid red;
+			text-align: center;
+		}
+		.jiaz ul li img{
+			margin: 20px;
+		}
+		.jiaz ul li p{
+			font-size: 15px;
+		}	

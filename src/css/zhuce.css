@@ -1,0 +1,75 @@
+	*{
+			margin: 0;
+			padding: 0;
+		}
+			.links,.copyright{
+				text-align: center;
+			}
+			.links a{
+				font-size: 14px;
+				color:#666;
+				
+			}
+			.copyright{
+				padding-top: 20px;
+			}
+			.logo img{
+				margin-top: 20px;
+				
+				width: 170px;
+				height: 60px;
+			}
+			.logo{
+				margin-left: 60px;
+				width: 1200px;
+				height: 100px;
+				border-bottom: 2px solid silver;
+			}
+			.zc{
+				font-size: 28px;
+				margin-left: 10px;
+		
+			}
+			.yyou{
+				margin-left: 750px;
+			}
+			.geren{
+				margin:50px 0  50px 240px;
+				
+				border-bottom: 1px solid darkgray;
+			}
+			.geren input{
+				margin-bottom:30px ;
+				width: 400px;
+				height: 50px;
+				border: 1px solid silver;
+				line-height: 50px;
+			}
+			.geren .dd{
+				width: 20px;
+				height: 20px;
+				
+			}
+			.zhuce{
+				display: block;
+				width: 400px;
+				height: 50px;
+			background:rgb(228,57,60);
+			text-align: center;
+			line-height: 50px;
+			font-size: 22px;
+			color: white;
+			margin-bottom: 60px;
+			}
+			.yanse{
+				margin-left: 140px;
+				
+			}
+			.yanse span {
+				width: 50px;
+				height: 10px;
+				background:;
+				display: block;
+				float: left;
+				
+			}
