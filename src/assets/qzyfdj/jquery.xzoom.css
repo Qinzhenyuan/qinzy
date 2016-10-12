@@ -1,5 +1,4 @@
-.xzoom{position:relative;}
-.xzoom .xzoom-min{position:absolute;top:0;left:0;width:100px;height:50px;border:1px solid #fc0;background-color:rgba(255,255,0,0.3)}
-
-.xzoom-big{position:absolute;width:300px;height:300px;overflow:hidden;}
-.xzoom-big img{position:absolute;left:0;top:0;}
+.xzoom{position: relative;}
+.xzoom .xzoom-min{position:absolute;top:0;left:0;width:100px;height:50px;border:1px solid #000000;)}
+.xzoom-big{position:absolute;overflow:hidden;border: 1px solid red; }
+.xzoom-big img{position:absolute;left:0;top:0;width: 800px;}

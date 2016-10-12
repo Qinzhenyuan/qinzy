@@ -5,16 +5,18 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/jingdong.css"/>
 		<link rel="stylesheet" type="text/css" href="css/shouye.css"/>
-		
 		<link rel="stylesheet" type="text/css" href="assets/qzylbt/jquery.qzylbt.css"/>
 	<script src="assets/jquery-1.12.0.js" type="text/javascript" charset="utf-8"></script>
 	<script src="assets/qzylbt/jquery.qzylbt.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
+		
+		<!--头部  登录-->
 		<div class="toubu">
 		<p>
-			
+		
 		<span class="song">
 			
 		送至：广西    </span>      <span id="song1">
@@ -33,18 +35,21 @@
 			<img src="img/log.jpg.png"/>
 			
 		</div>
+		  
+		<!--  搜索栏-->
+		  
 		<div id="search1">
 				
 				
 					<input  type="text" onkeydown="javascript:if(event.keyCode==13) search('key');" autocomplete="off" id="key" accesskey="s" class="text" />
 					<button onclick="search('key');return false;" class="button cw-icon"><i></i>搜索</button>
 				    <p class="tuijian">
-       <a href="#">品牌特卖 </a> <a href="#">蟹肥膏黄</a> <a href="#">9.9韩国游</a>  <a href="#">品牌盛典 </a>  <a href="#">燃油添加剂   </a> <a href="#">小脚裤女 </a> <a href="#">1元专享 </a></p>
+       <a href="#" style="color: red;">品牌特卖 </a> <a href="#">蟹肥膏黄</a> <a href="#">9.9韩国游</a>  <a href="#">品牌盛典 </a>  <a href="#">燃油添加剂   </a> <a href="#">小脚裤女 </a> <a href="#">1元专享 </a></p>
 			</div>
 			
 			<!--购物车-->
 	
-			  	  <div id="car">
+			  <div id="car">
 			  <div id="gou">	
 			  <span  class="cartu">
 			  		
@@ -72,19 +77,20 @@
 			 <div class="zhong">
 			 	<ul>
 			 		<li>
-			 		<div class="dt" >
-						<a  href="#">全部商品分类</a>
+			 		<div class="nav-dt" >
+						<a style="color: white; font-weight:700 ;" href="#">全部商品分类</a>
 					</div>
 			 	</li>
-			 		<li>服装城</li>
-			 		<li>美妆馆</li>
-			 		<li>京东超市</li>
-			 		<li>生鲜</li>
-			 		<li>全球购</li>
-			 		<li>闪够</li>
-			 		<li>团购</li>
-			 		<li>拍卖</li>
-			 		<li>金融</li>
+			 		<li><a href="">服装城</a></li>
+			 		<li><a href="">美妆馆</a></li>
+			 		<li><a href="">京东超市</a></li>
+			 		<li><a href="">生鲜</a></li>
+			 		<li><a href="">全球购</a></li>
+			 		<li><a href="">闪购</a></li>
+			 		<li><a href="">团购</a></li>
+			 		<li><a href="">拍卖</a></li>
+			 		<li><a href="">金融</a></li>
+			 		
 			 	</ul>
 			 	
 			 </div> 
@@ -92,12 +98,8 @@
 	
 	<!--左导航栏	-->
 	<div id="nav-left">
-		
-		
-				
-				
+	
 					<div class="dd">
-					
 								<h3><a target="_blank" href="#">家用电器</a></h3>
 								<i>&gt;</i>
 							</div>
@@ -146,10 +148,109 @@
 								<h3><a target="_blank" href="#">理财</a>、<a target="_blank" href="#">众筹</a>、<a target="_blank" href="#">白条</a>、<a target="_blank" href="#">保险</a></h3>
 								<i>&gt;</i>
 							</div>
+							
+								<div >
+								<h3><a target="_blank" href="#">图书</a>、<a target="_blank" href="#">音像</a>、<a target="_blank" href="#">电子书</a></h3>
+								<i>&gt;</i>
+							</div>
+							<div>
+								<h3><a target="_blank" href="#">彩票</a>、<a target="_blank" href="#">旅行</a>、<a target="_blank" href="#">充值</a>、<a target="_blank" href="#">票务</a></h3>
+								<i>&gt;</i>
+							</div>
+							<div >
+								<h3><a target="_blank" href="#">理财</a>、<a target="_blank" href="#">众筹</a>、<a target="_blank" href="#">白条</a>、<a target="_blank" href="#">保险</a></h3>
+								<i>&gt;</i>
+							</div>
+							
+							
+						<div class="select1">
+					<div class="bdd">
+						<p>女装</p>
+						<li><a href="#">连衣裙</a><span>|</span></li>
+						<li><a href="#">T恤</a><span>|</span></li>
+						<li><a href="#">衬衫</a><span>|</span></li>
+						<li><a href="#">牛仔裤</a><span>|</span></li>
+						<li><a href="#">卫衣</a><span>|</span></li>
+						<li><a href="#">西服</a><span>|</span></li>
+						<li><a href="#">西裤</a><span>|</span></li>
+						<li><a href="#">睡衣</a><span>|</span></li>
+						<li><a href="#">打底裤</a><span>|</span></li>
+						<li><a href="#">大衣</a><span>|</span></li>
+						<li><a href="#">羊毛衫</a><span>|</span></li>
+						<li><a href="#">大码男装</a><span>|</span></li>
+					</div><br>
+					<div>
+						<p>男装</p>
+							<li><a href="#">连衣裙</a><span>|</span></li>
+						<li><a href="#">T恤</a><span>|</span></li>
+						<li><a href="#">衬衫</a><span>|</span></li>
+						<li><a href="#">牛仔裤</a><span>|</span></li>
+						<li><a href="#">卫衣</a><span>|</span></li>
+						<li><a href="#">西服</a><span>|</span></li>
+						<li><a href="#">西裤</a><span>|</span></li>
+						<li><a href="#">睡衣</a><span>|</span></li>
+						<li><a href="#">打底裤</a><span>|</span></li>
+						<li><a href="#">大衣</a><span>|</span></li>
+						<li><a href="#">羊毛衫</a><span>|</span></li>
+						<li><a href="#">大码男装</a><span>|</span></li>
+						
+					</div><br>
+					<div>
+						<p>配饰</p>
+							<li><a href="#">连衣裙</a><span>|</span></li>
+						<li><a href="#">T恤</a><span>|</span></li>
+						<li><a href="#">衬衫</a><span>|</span></li>
+						<li><a href="#">牛仔裤</a><span>|</span></li>
+						<li><a href="#">卫衣</a><span>|</span></li>
+						<li><a href="#">西服</a><span>|</span></li>
+						<li><a href="#">西裤</a><span>|</span></li>
+						<li><a href="#">睡衣</a><span>|</span></li>
+						<li><a href="#">打底裤</a><span>|</span></li>
+						<li><a href="#">大衣</a><span>|</span></li>
+						<li><a href="#">羊毛衫</a><span>|</span></li>
+						<li><a href="#">大码男装</a><span>|</span></li>
+						
+					</div><br>	
+					<div>
+						<p>配饰</p>
+							<li><a href="#">连衣裙</a><span>|</span></li>
+						<li><a href="#">T恤</a><span>|</span></li>
+						<li><a href="#">衬衫</a><span>|</span></li>
+						<li><a href="#">牛仔裤</a><span>|</span></li>
+						<li><a href="#">卫衣</a><span>|</span></li>
+						<li><a href="#">西服</a><span>|</span></li>
+						<li><a href="#">西裤</a><span>|</span></li>
+						<li><a href="#">睡衣</a><span>|</span></li>
+						<li><a href="#">打底裤</a><span>|</span></li>
+						<li><a href="#">大衣</a><span>|</span></li>
+						<li><a href="#">羊毛衫</a><span>|</span></li>
+						<li><a href="#">大码男装</a><span>|</span></li>
+						
+					</div><br>	
+					<div>
+						<p>配饰</p>
+							<li><a href="#">连衣裙</a><span>|</span></li>
+						<li><a href="#">T恤</a><span>|</span></li>
+						<li><a href="#">衬衫</a><span>|</span></li>
+						<li><a href="#">牛仔裤</a><span>|</span></li>
+						<li><a href="#">卫衣</a><span>|</span></li>
+						<li><a href="#">西服</a><span>|</span></li>
+						<li><a href="#">西裤</a><span>|</span></li>
+						<li><a href="#">睡衣</a><span>|</span></li>
+						<li><a href="#">打底裤</a><span>|</span></li>
+						<li><a href="#">大衣</a><span>|</span></li>
+						<li><a href="#">羊毛衫</a><span>|</span></li>
+						<li><a href="#">大码男装</a><span>|</span></li>
+						
+					</div>	
+				</div>	
 						
 	
 		
 	</div>
+
+
+
 
 		<!--	轮播图-->
 		<div id="lbt">
@@ -158,6 +259,9 @@
 				<li><img src="img/sy (2).jpg" alt="" /></li>
 				<li><img src="img/sy (3).jpg" alt="" /></li>
 				<li><img src="img/sy (4).jpg" alt="" /></li>
+				<li><img src="img/sy (5).jpg" alt="" /></li>
+				<li><img src="img/sy (6).jpg" alt="" /></li>
+			
 			</ul>
 			
 			
@@ -165,18 +269,11 @@
 		
 		<!--右导航栏	-->
 		<div id="nav-right">
-		
-
-			
 				<div class="mt">
-					<h2>京东快报</h2>
-				
-						<a class="genduo" href="#">更多 &gt;</a>
-					
+					<h2>京东快报      <a class="genduo" href="#">更多 &gt;</a></h2>			
 				</div>
 				<div class="mc">
 					<ul>
-
 						<li >
 							<a  href="#"><span>[特惠]</span>进口欧德堡低至两件7.5折</a>
 						</li>
@@ -196,10 +293,10 @@
 			
 			</div>
 			<div class="mt2">
+				<!--右边导航图标-->
+				
 					<h2>生活服务</h2>
-					
 					<div class="mc">
-						
 					<ul class="let">
 						<li><a href="#" style="display: block; width:22px; height: 25px;background:url(img/bejin.png) no-repeat left top;"></a>话费</li>
 						<li><a href="#" style="display: block; width:24px; height: 25px;background:url(img/bejin.png) no-repeat left -25px;"></a>飞机</li>
@@ -213,17 +310,12 @@
 						<li><a href="#" style="display: block; width:24px; height: 25px;background:url(img/bejin.png) no-repeat left -225px;"></a>理财</li>
 						<li><a href="#" style="display: block; width:24px; height: 25px;background:url(img/bejin.png) no-repeat left -250px;"></a>礼品</li>
 						<li><a href="#" style="display: block; width:24px; height: 25px;background:url(img/bejin.png) no-repeat left -275px;"></a>白条</li>
-						
-						
-						
+							
 					</ul>
-				<!--<p><span >机票</span>  <span >机票</span>  <span >机票</span>  <span >机票</span></p>	
-				<p><span >机票</span>  <span >机票</span>  <span >机票</span>  <span >机票</span></p>
-				<p><span >机票</span>  <span >机票</span>  <span >机票</span>  <span >机票</span></p>
-				<p><span >机票</span>  <span >机票</span>  <span >机票</span>  <span >机票</span></p>-->
+			
 				</div>
 				
-						
+					<img src="img/youxia.jpg"/>	
 					
 				</div>
 		
@@ -236,19 +328,19 @@
 
 		<div id="lbbttt">
 			
-	   <a href="#"><img src="img/xiaomi.jpg.png"/></a>	
+	   <a href="#"  style="display: block; width:215px;height: 155px; background: url(img/tuijian.png) no-repeat -210px -125px;  margin-top: 10px;"></a>	
 		<div id="lbt2">
 		  <ul>
 		  	<li><img src="img/lbt (1).jpg" alt="" /></li>
 		  	<li> <img src="img/lbt (2).jpg" alt="" /></li>
 		  	<li><img src="img/lbt (3).jpg" alt="" /></li>
-		  	<li><img src="img/lbt (4).jpg" alt="" /></li>
-		  	
-		  	
-		  	<li><img src="img/57e7e40bN784f15e2_看图王.jpg" alt="" /></li>
-		  	<li><img src="img/57e7e438Nd13e196c_看图王.jpg" alt="" /></li>
-		  	<li><img src="img/57e7e443N4613ca98_看图王.jpg" alt="" /></li>
-		  	<li><img src="img/57e7e569Ndc098932_看图王.jpg" alt="" /></li>
+		  	<li><img src="img/lbt (4).jpg" alt="" /></li>	
+		  	<li><img src="img/lbt (5).jpg" alt="" /></li>
+		  	<li><img src="img/lbt (6).jpg" alt="" /></li>
+		  	<li><img src="img/lbt (7).jpg" alt="" /></li>
+		  	<li><img src="img/lbt (8).jpg" alt="" /></li>
+		  	<li><img src="img/lbt (9).jpg" alt="" /></li>
+		  	<li><img src="img/lbt (10).jpg" alt="" /></li>
 		  
 		  </ul>
 			
@@ -261,36 +353,31 @@
 		<!--猜你喜欢	-->
 		<div id="caini">
 			
-		<h2>猜你喜欢</h2>	
-			<span class="huan">
-				换一批
-			</span>
+		
+			<a href="#" > <img src="img/t1.jpg"/></a>
 			
+			<a href="#" > <img src="img/t4.jpg"/></a>
+			<img src="img/re.jpg"/>
+		
 		</div>
-		
-		
-		<!--品质生活-->
-		
-		<div class="pingzhi">
-		<p>  <h3>新发现</h3><h3>好东西</h3><h3>品牌街</h3></p>
-			
-			
-		</div>
-		<div class="xlogo">
+	   
+	   
+	   
+		<!--<div class="xlogo">
 			<ul>
 				<li><img src="img/h1.jpg"/></li>
 				<li><img src="img/h2.jpg"/></li>
 				<li><img src="img/h3.jpg"/></li>
 			</ul>
 			
-		</div>
+		</div>-->
 		
 		
 	<!--	左边楼层-->
 				
 						<div id="LoutiNav">
 			<ul>
-				<li class="hover">1F <span>服饰</span> </li>
+				<li class="hover">1F <span>手机</span> </li>
 				<li>2F <span>美妆</span> </li>
 				<li>3F <span>手机</span> </li>
 				<li>4F <span>家电</span> </li>
@@ -304,16 +391,33 @@
 				<li class="last">Top</li>
 			</ul>
 		</div>
+		<!--右边导航-->
+			<div id="LoutiNav2">
+			<ul>
+				<li  style="background: url(img/top.png) no-repeat -87px -205px;"><span>京东会员</span> </li>
+				<li   style="background: url(img/top.png) no-repeat 5px 5px;"> <span>购物车</span> </li>
+				<li   style="background: url(img/top.png) no-repeat 6px -40px;"><span>我的关注</span> </li>
+				<li   style="background: url(img/top.png) no-repeat 5px -95px;"> <span>我的足迹</span> </li>
+				<li  style="background: url(img/top.png) no-repeat 5px -145px;"> <span>我的消息</span> </li>
+				<li> <span>咨询MINI</span> </li>
+				
+				<li class="last">顶部</li>
+				<li> <span>反馈</span> </li>
+			</ul>
+		</div>
+		
 
 		<!--楼层内容开始-->
 
 		
 		<div id="main">
-			<div class="Louti" style="background: #cc0033;">
-				<div class="leftimg">
+			<div class="Louti" >
+				<!--<div class="leftimg">
 					<img src="img/left1.jpg"/>
 					
-				</div>
+				</div>-->
+				
+		<!--懒加载	-->
 				<div class="lb" id="jiazai">
 					<!--<ul>
 						<li><img src="img/le1 (1).jpg"/></li>
@@ -326,7 +430,7 @@
 						<li><img src="img/le1 (8).jpg"/></li>
 					</ul>-->
 					</div>
-					<div class="lb1">
+					<!--<div class="lb1">
 						
 					
 					<ul >
@@ -336,7 +440,7 @@
 						<li><img src="img/le2 (4).jpg"/>	</li>
 						<li><img src="img/le2 (5).jpg"/>	</li>
 					</ul>
-				</div>
+				</div>-->
 				
 					
 				
@@ -344,35 +448,35 @@
 				
 				
 			</div>
-			<div class="Louti"  id="jiazai" style="background: #999933;">
-				美妆
+			<div class="Louti"  id="jiazai" >
+				<!--美妆-->
 			</div>
-			<div class="Louti"  id="jiazai" style="background: #ccff33;">
-				手机
+			<div class="Louti"  id="jiazai" >
+				<!--手机-->
 			</div>
-			<div class="Louti"   id="jiazai" style="background: #006633;">
-				家电
+			<div class="Louti"   id="jiazai" >
+				<!--家电-->
 			</div>
-			<div class="Louti" id="jiazai"   style="background: #6666cc;">
-				数码
+			<div class="Louti" id="jiazai"   >
+				<!--数码-->
 			</div>
-			<div class="Louti" id="jiazai"   style="background: #ff6600;">
-				运动
+			<div class="Louti" id="jiazai"   >
+				<!--运动-->
 			</div>
-			<div class="Louti" style="background: #ffff00;">
-				居家
+			<div class="Louti" >
+				<!--居家-->
 			</div>
-			<div class="Louti" style="background: #3333ff;">
-				母婴
+			<div class="Louti" >
+				<!--母婴-->
 			</div>
-			<div class="Louti" style="background: #ff00cc;">
-				食品
+			<div class="Louti" >
+				<!--食品-->
 			</div>
-			<div class="Louti" style="background: #669900;">
-				图书
+			<div class="Louti">
+				<!--图书-->
 			</div>
-			<div class="Louti" style="background: #ff66cc;">
-				服务
+			<div class="Louti" >
+				<!--服务-->
 			</div>
 
 		</div>

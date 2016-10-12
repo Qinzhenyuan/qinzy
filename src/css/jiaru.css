@@ -6,6 +6,7 @@
 			
 			
 		}
+		
           .cheng .cx{
           	font-size: 30px;
           	color: lawngreen;
@@ -36,7 +37,7 @@
 			float: left;
 			width: 240px;
 			height: 310px;
-			border: 1px solid red;
+			border: 1px solid #3E3E3E;
 			text-align: center;
 		}
 		.jiaz ul li img{
@@ -44,4 +45,8 @@
 		}
 		.jiaz ul li p{
 			font-size: 15px;
+		}
+		.active{
+			border: 2px solid red;
 		}	
+	

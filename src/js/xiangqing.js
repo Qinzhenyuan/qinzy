@@ -1,6 +1,18 @@
 $(function(){
 	
+	var tusrc = getcookie("src");
+	var tuxinx = getcookie("xinxi");
+	var tujg = getcookie("jg");
+	console.log(tuxinx);
 	
+	
+       console.log(tusrc);
+ 	$(".xinxi").html(tuxinx);
+	$(".price").html(tujg);
+
+	var img = $("<img/>").attr("src",tusrc);
+	var ctlf = $(".part-img");
+	img.appendTo(ctlf);
 	
 	 var $gg=$("#gou")
 	 		var $gou = $(".ying");
@@ -13,7 +25,7 @@ $(function(){
 	 			
 	 			i++;
 	 			$os.html(i);
-	 			var $oli = $(".goods-img");
+	 			var $oli = $(".part-img");
 	 			var $oimg = $oli.find("img");
 	 			var $xin=$(".xinxi");
 	 			
@@ -50,9 +62,27 @@ $(function(){
 	 				});
 	 				
 	 				$fuzhili.appendTo($gou);
-	 				
+	 					
+				    var $src = $oimg.attr("src");
+				    var $shu=$os.html();
+				    var $zi=$xin.html();
+				    console.log($zi);
+				    
+								
+								console.log($src);
+								console.log(shu);
+								var d = new Date();
+								d.setDate(d.getDate()+10);
+
+								var shu=setcookie("shu",$shu,d,"/");
+								var  zi=setcookie("zi",$zi,d,"/");
+							
 	 				
 	 			});
+	 			setTimeout(function(){
+	 				location.assign("../html/jiaru.html");
+	 			},1000);
+	 			
 	 		});
             
             $("#gou").on('mouseenter',function(){

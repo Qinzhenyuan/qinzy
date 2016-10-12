@@ -10,14 +10,16 @@
 		<script src="../assets/jquery-1.12.0.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../assets/qzyfdj/jquery.xzoom.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/xiangqing.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/cookie.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
 			
 		
             $(function(){
             	jQuery(function($){
-			$('.goods-img').xzoom({position:'right'});
+			$('.part-img').xzoom({position:'right'});
 		});
-   	
+		
+
             })   
 		</script>
 	</head>
@@ -34,14 +36,10 @@
 		</div>
 		<div class="ding">
 		<div id="logo">
-			
-			
-			<img src="../img/log.jpg.png"  />
+			<a href="../index.html"><img src="../img/log.jpg.png"  /></a>
 			
 		</div>
-		<div id="search1">
-				
-				
+		<div id="search1">	
 					<input  type="text" onkeydown="javascript:if(event.keyCode==13) search('key');" autocomplete="off" id="key" accesskey="s" class="text" />
 					<button onclick="search('key');return false;" class="button cw-icon"><i></i>搜索</button>
 				    <p class="tuijian">
@@ -54,7 +52,7 @@
 			  <div id="gou">	
 			  <span  class="cartu">
 			  		
-			  	</span> <a href="html/goucar.html">我的购物车  </a>
+			  	</span> <a href="goucar.html">我的购物车  </a>
 			  	<span style=" height: 40px; background: red; color: white; font-size: 20px;" id="shu">
     		0
     	</span>
@@ -65,41 +63,39 @@
 			  
 			  </div>
 			
-		 </div>
-		 
-		 
+		</div>
 		  <div class="zhong">
 			 	<ul>
 			 		<li>
-			 		<div class="dt" >
-						<a  href="#">全部商品分类</a>
+			 		<div class="nav-dt" >
+						<a style="color: white; font-weight:700 ;" href="#">全部商品分类</a>
 					</div>
 			 	</li>
-			 		<li>服装城</li>
-			 		<li>美妆馆</li>
-			 		<li>京东超市</li>
-			 		<li>生鲜</li>
-			 		<li>全球购</li>
-			 		<li>闪够</li>
-			 		<li>团购</li>
-			 		<li>拍卖</li>
-			 		<li>金融</li>
+			 		<li><a href="">服装城</a></li>
+			 		<li><a href="">美妆馆</a></li>
+			 		<li><a href="">京东超市</a></li>
+			 		<li><a href="">生鲜</a></li>
+			 		<li><a href="">全球购</a></li>
+			 		<li><a href="">闪购</a></li>
+			 		<li><a href="">团购</a></li>
+			 		<li><a href="">拍卖</a></li>
+			 		<li><a href="">金融</a></li>
 			 	</ul>
-			 	
 			 </div> 
-			<div class="goods">
-			<div class="goods-top">
-
-
-
-				<p><a class="classify" href="#">手机>手机通讯</a><i>></i><span class="title">手机>Apple >AppleiPhone7 Plus</span></p>
+			<div class="part">
+			<div class="part-top">
+				<p><a  href="#">手机>手机通讯</a><i>></i><span class="title">手机>Apple >AppleiPhone7 Plus</span></p>
 			</div>
-			<div class="deal">
-				<div class="goods-img">
-					<img src="../img/small.jpg"    data-big="../img/big.jpg"    />
+			<div class="part-content">
+				
+				
+				<!--商品图片-->
+				<div class="part-img">
+					
+					<!--<img src="../img/small.jpg"    data-big="../img/big.jpg"    />-->
 				
 				</div>
-				<div class="goods-txt">
+				<div class="part-txt">
 					<h3 class="xinxi">苹果(Apple) iPhone 7 Plus 4G手机 金色 全网通(32G)</h3>
 					<p>苹果产品激活不支持七天无理由退换货购买苹果7 APP签到领券下单更优惠</p>
 				    <div class="jiage">
@@ -112,7 +108,7 @@
 				    	
 				    </div>
 				  
-				          购买数量&nbsp;&nbsp;<input class="jian" type="button" value="-"> <b>1</b> <input class="jia" type="button" value="+">   <a class="buynow" href="#">加入购物车</a>
+				          购买数量&nbsp;&nbsp;<input class="jian" type="button" value="-"> <b class="ip">1</b> <input class="jia" type="button" value="+">   <a class="buynow" href="#">加入购物车</a>
 				          <p>   本地活动·<a href="#">10元抢1GB流量 >></a></p>
                            <p>  温馨提示·不支持7天无理由退货</p>
 
@@ -121,9 +117,9 @@
 			</div>
 			</div> 
 			<!--相关商品-->
-			<div class="dapei">
+			<div class="standard">
 				
-					<div class="f1">
+					<div class="sta">
 				<ul>
 				<h3>相关商品</h3>
 				<li><img src="../img/k1.jpg"><a href="#"><span>苹果 Apple iPhone 6s 4G手机 玫瑰金 公开(64G)标配</span><span class="jg">￥4769</span></a></li>
@@ -133,7 +129,7 @@
 				<li><img src="../img/k1.jpg"><a href="#"><span>苹果 Apple iPhone 6s 4G手机 玫瑰金 公开(64G)标配</span><span class="jg">￥4769</span></a></li>
 				</ul>
 			</div>
-				<div class="f2">				
+				<div class="sta2">				
 					<li class="fs"><a href="#">商品介绍</a></li>
 					<li><a href="#">规格与包装</a></li>
 					<li><a href="#">售后服务</a></li>

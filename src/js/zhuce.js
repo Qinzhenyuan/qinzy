@@ -4,23 +4,7 @@ window.onload = function() {
 				var oss = document.getElementById("yz");
 				var osp=document.getElementsByName("span");
                  console.log(op.length);
-                 
-			
-//			var oldyonghu = oinput[0].value;
-//				var oldmima = oinput[1].value;
-//				
-//				var d = new Date();
-//				d.setDate(d.getDate()+10);
-//				var y = setcookie("y",oldyonghu,d);
-//				var m = setcookie("m",oldmima,d);
-//	
-			
-			
-			
-
-	
- 				
- 				
+ 			
  				oin[6].onclick = function(){
  					
  					var username = oin[0].value; //账号
@@ -36,7 +20,7 @@ window.onload = function() {
  						}else{
  						var d = new Date;
    						d.setDate(d.getDate() + 10);
-   						var user = setcookie("user ",username,d);
+   						var user = setcookie("user",username,d);
    						var pass = setcookie("pass",pwd,d);
    						location.assign("../html/denglu.html");
  						}

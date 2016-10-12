@@ -185,7 +185,7 @@
 				
 			}
 		  #car #gou{
-		  	overflow: hidden;
+		  	/*overflow: hidden;*/
 		  	
 		  	border: 1px solid darkgray;
 		  }
@@ -193,22 +193,57 @@
 				height: 100px;
 				margin-left: 30px;
 			}
+			
+#gou img { width: 120px; margin: 10px;}
+ #gou li{position:relative;height:200px;}
+ #gou .btn-close{position:absolute;top:0;right:0;padding:5px;}
+ #gou .btn-close:hover{background-color:#f00;color:#fff;}
+  #gou .ying{
+    	display: none;
+    }
+  #gou .ying h3{
+  	font-size: 8px;
+  	text-align: center;
+  }   
+   #gou .ying li{
+  	font-size: 8px;
+  	text-align: center;
+  	padding-bottom: 10px;
+  } 
+			
 		
 /*底部*/
+
+			.links,.copyright{
+				text-align: center;
+			}
+			.links a{
+				font-size: 14px;
+				color:#666;
+				
+			}
+			.copyright{
+				padding-top: 20px;
+			}
+
+
 		.ditu img{
 			margin-left: 70px;
 			
 		}
 			.dibu{
 				float: left;
-				margin-top: 50px;
+				margin:100px;
 				text-align: center;
 				font-size: 14px;
 				color:#666;
 				
 			}
+			
 			.footer{
 				overflow: hidden;
+				margin-top: 50px;
+				margin-left: 70px;
 			}
 	.footer ul{
 	float: left;
