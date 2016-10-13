@@ -10,6 +10,9 @@ body{
     #logo{
     	padding-left:180px;
     }
+    
+    
+    /*背景图*/
     	#content{
     		width: 990px;;
     		height: 475px;
@@ -50,6 +53,8 @@ body{
 	     	
 	     	
 	     }
+	     
+	     
 		.tishi{
 			width: 305px;
 			height: 27px;
@@ -107,6 +112,8 @@ body{
 			font-size: 13px;
 			color: #000000;
 		}
+		
+		
 		.did{
 			margin-left:1070px ;
 		}
