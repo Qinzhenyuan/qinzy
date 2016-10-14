@@ -1,60 +1,55 @@
-
-
-
-
 //instanceof: 判断是否属于某个类型
 //name=value;[expires=date];[path=路径];[domain=域名];[secure]
 //设置cookie
-function setcookie(name,value,expires,path,domain,secure){
+function setcookie(name, value, expires, path, domain, secure) {
 	//name=value
-	var cookieText = name +"="+ value;
+	var cookieText = name + "=" + value;
 	//失效时间expires=date
-	if(expires instanceof Date){
-		cookieText += ";expires="+expires;
+	if(expires instanceof Date) {
+		cookieText += ";expires=" + expires;
 	}
 	//path=路径
-	if(path){
-		cookieText += ";path="+path;
+	if(path) {
+		cookieText += ";path=" + path;
 	}
 	//domain=域名
-	if(domain){
-		cookieText += ";domain="+domain;
+	if(domain) {
+		cookieText += ";domain=" + domain;
 	}
 	//secure
-	if(secure){
+	if(secure) {
 		cookieText += ";secure";
 	}
-	
+
 	document.cookie = cookieText;
 	return document.cookie;
- 	
+
 }
 
 //获取cookie
-function getcookie(name){
-	var cookie = document.cookie;//name=1;name2=2;name3=3
-	
+function getcookie(name) {
+	var cookie = document.cookie; //name=1;name2=2;name3=3
+
 	var arr = cookie.split("; ");
 	//[name=1,name2=2,name3=3]
-	for(var i=0; i<arr.length; i++){
+	for(var i = 0; i < arr.length; i++) {
 		//name=1
 		var arr2 = arr[i].split("=");
 		//[name,1]
-		if(arr2.length >=2){
-			if(arr2[0] == name){
+		if(arr2.length >= 2) {
+			if(arr2[0] == name) {
 				return arr2[1];
 			}
-		}	
+		}
 	}
 	return "";
-	
+
 }
 
-
 //删除cookie
-function removecookie(name){
-	var d = new Date(); 
-	document.cookie = name +"=;expires="+d;
+function removecookie(name) {
+	var d = new Date();
+	document.cookie = name + "=;expires=" + d;
 	return document.cookie;
-	
+
 }

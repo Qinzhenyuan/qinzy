@@ -1,327 +1,346 @@
 		
-       
 		
-		.zhong{
-				width: 1200px;
-				height: 40px;
-				border-bottom: solid 3px rgb(177,25,26);
-			}
-		.zhong ul li{
+		/*中间内容*/
+		.zhong {
+			width: 1200px;
+			height: 40px;
+			border-bottom: solid 3px rgb(177, 25, 26);
+		}
+		
+		.zhong ul li {
 			float: left;
 			margin-left: 40px;
-			
-		}	
-		.zhong .nav-dt{
+		}
+		
+		.zhong .nav-dt {
 			width: 215px;
 			height: 40px;
-			background: rgb(177,25,26);
+			background: rgb(177, 25, 26);
 			text-align: center;
 			line-height: 40px;
 			font-weight: 800;
-			
 		}
 		
-		#chufu{
+		#chufu {
 			width: 1245px;
 			height: 500px;
 		}
 		
-
-		#nav-left{
+		#nav-left {
 			width: 215px;
 			height: 470px;
-			background: rgb(200,22,35);
+			background: rgb(200, 22, 35);
 			color: white;
 			font-size: 12px;
 			margin-left: 40px;
 			/*overflow: hidden;*/
 			float: left;
-		
 		}
 		
-		#nav-left div i{
+		#nav-left div i {
 			margin-left: 165px;
 			float: left;
 			margin-top: -16px;
-		
-			
 		}
-		#nav-left div{
-			margin:15px 0 10px 30px;
-			
-			
-			
-			
-			
-		}	
-		#nav-left a{
+		
+		#nav-left div {
+			margin: 15px 0 10px 30px;
+		}
+		
+		#nav-left a {
 			color: white;
 		}
+		/*	列表*/
 		
+		.select1 li a {
+			color: black;
+		}
+		/*.select .select1{border-bottom: 1px solid red;}*/
 		
+		.select1 {
+			padding-bottom: 50px;
+			display: none;
+		}
 		
+		.select1 .bdd {
+			margin-top: 0;
+		}
 		
+		.select1 div {
+			margin-top: 50px;
+		}
 		
+		.select1 p {
+			color: gray;
+			font-weight: bolder;
+			font-size: 14px;
+			margin-left: 10px;
+			padding: 10px 0;
+		}
 		
-	/*	列表*/
-
-.select1 li a{color:black;}
-/*.select .select1{border-bottom: 1px solid red;}*/
-.select1{padding-bottom: 50px;display: none;}
- .select1 .bdd{margin-top: 0;}
- .select1 div{margin-top: 50px;}
-.select1 p{color:gray;font-weight: bolder;font-size: 14px;margin-left: 10px;padding: 10px 0;}
-.select1 li{float: left;padding: 0 10px;font-size: 12px;}
-.select1 li a:hover{color: red;text-decoration: underline;}
-.select1 li span{margin-left: 20px;}
-.select1{position: absolute;left: 223px;top: 235px; height: 450px; background:white;   width: 900px;overflow: hidden;z-index: 1000;border: 1px solid rosybrown;}
-	
-	/*	列表*/
-		#lbt{
+		.select1 li {
+			float: left;
+			padding: 0 10px;
+			font-size: 12px;
+		}
+		
+		.select1 li a:hover {
+			color: red;
+			text-decoration: underline;
+		}
+		
+		.select1 li span {
+			margin-left: 20px;
+		}
+		
+		.select1 {
+			position: absolute;
+			left: 223px;
+			top: 235px;
+			height: 450px;
+			background: white;
+			width: 900px;
+			overflow: hidden;
+			z-index: 1000;
+			border: 1px solid rosybrown;
+		}
+		/*	列表*/
+		
+		#lbt {
 			float: left;
 			margin: 10px;
-			
-	
 		}
-			#nav-right{
+		
+		#nav-right {
 			width: 230px;
-			height: 210px;     	
-     		float: left;
-     		margin: 10px 0;
+			height: 210px;
+			float: left;
+			margin: 10px 0;
 		}
-		#nav-right .genduo{
+		
+		#nav-right .genduo {
 			font-size: 13px;
 			margin-left: 60px;
-			
-			
-			
 		}
-		#nav-right h2{
-			background: rgb(238,238,238);
+		
+		#nav-right h2 {
+			background: rgb(238, 238, 238);
 		}
-		#nav-right .mc li{
+		
+		#nav-right .mc li {
 			font-size: 14px;
 			margin-top: 5px;
 		}
-		#nav-right .mc{
+		
+		#nav-right .mc {
 			margin-top: 20px;
 		}
-		#nav-right .let li{
+		
+		#nav-right .let li {
 			float: left;
 			margin-left: 20px;
 			margin-bottom: 5px;
-		
-			
 		}
-		#nav-right .mt2{
+		
+		#nav-right .mt2 {
 			margin-top: 20px;
 		}
-		#nav-right .mc li span{
+		
+		#nav-right .mc li span {
 			font-weight: 700;
 		}
-	#jinri{
-		margin-left: 40px;
-	}	
 		
-      /*横排轮播图*/
-			
-			#lbbttt a {
-				float: left;
-			}
-			
+		#jinri {
+			margin-left: 40px;
+		}
+		/*横排轮播图*/
+		
+		#lbbttt a {
+			float: left;
+		}
 		/*猜你喜欢	*/
-		#caini{
+		
+		#caini {
 			margin-left: 40px;
 			width: 1200px;
-			
 			text-align: center;
-		
-			
-			
 		}
-		#caini img{
+		
+		#caini img {
 			margin-left: -400px;
-			
 		}
 		
-		#jiazai{
+		#jiazai {
 			margin-left: 80px;
-		
-		
 		}
+		
 		#jiazai ul li {
 			float: left;
 			width: 320px;
 			height: 430px;
 			margin: 10px;
 			text-align: center;
-			
 		}
+		
 		#jiazai ul li img {
-				width: 250px;
-				height: 310px;
-				margin: 10px;
-			}
+			width: 250px;
+			height: 310px;
+			margin: 10px;
+		}
 		
-       
-			
-	  
-       
-
-	
-			
-			ul li .aa{
-			    margin: 10px 0;
-			    color: #333333;
-			    font-size: 14px;
-			  
-			 
-			}
-			ul li .bb{
-				color: red;
-				font-size: 30px;
-				font-weight: 800;
-				margin-top: 20px;
-			}	
-		   
-		.bian{
+		ul li .aa {
+			margin: 10px 0;
+			color: #333333;
+			font-size: 14px;
+		}
+		
+		ul li .bb {
+			color: red;
+			font-size: 30px;
+			font-weight: 800;
+			margin-top: 20px;
+		}
+		
+		.bian {
 			border: 3px solid orange;
-		}	
-	
-			
-			
-
-	
-			
-			/*楼层*/
-				#LoutiNav {
-				width: 32px;
-				position: fixed;
-				top: 150px;
-				left: 2px;
-				border: 1px solid #ddd;
-				display: none;
-				z-index: 10;
-			}
-			#LoutiNav ul li {
-				width: 32px;
-				height: 32px;
-				border-bottom: 1px dotted #DDDDDD;
-				list-style: none;
-				font-size: 12px;
-				color: #666;
-				text-align: center;
-				line-height: 32px;
-				position: relative;
-				cursor: pointer;
-			}
-			#LoutiNav ul li span {
-				width: 32px;
-				height: 32px;
-				position: absolute;
-				top: 0;
-				left: 0;
-			}
-			#LoutiNav ul li span {
-				display: none;
-			}
-			#LoutiNav ul li.last {
-				background: #C00;
-				color: #fff;
-				border-bottom: 1px solid #ddd;
-			}
-			#LoutiNav ul li.hover span {
-				background: #c00;
-				color: #fff;
-				display: block;
-			}
-			#LoutiNav ul li.hover span.active {
-				background: #c00;
-				color: #fff;
-				display: block;
-			}
-			#LoutiNav ul li span.active {
-				background: #fff;
-				color: #c00;
-				display: block;
-			}
+		}
+		/*楼层*/
 		
-			#main {
-				width: 1230px;
-				height: 300px;
-				margin: 0 auto;
-			}
-			#main .Louti {
-				
-				height: 0px;
-				width: 1230px;
-				
-				
-				
-			}
-			/*右边*/
-			#LoutiNav2 {
-				width: 32px;
-				position: fixed;
-				top: 300px;
-				right: 2px;
-				border: 1px solid #ddd;
-				z-index: 10;
-			}
-			#LoutiNav2 ul li {
-				width: 32px;
-				height: 32px;
-				border-bottom: 1px dotted #DDDDDD;
-				list-style: none;
-				font-size: 12px;
-				color: #666;
-				text-align: center;
-				line-height: 32px;
-				position: relative;
-				cursor: pointer;
-				background: rgb(122,110,110);
-				display: block;
-			}
-			#LoutiNav2 ul li span {
-				width: 32px;
-				height: 32px;
-				position: absolute;
-				top: 0;
-				left: 0;
-				display: block;
-				color: white;
-			}
-			#LoutiNav2 ul li span {
-				display: none;
-			}
-			#LoutiNav ul li.last {
-				background: #C00;
-				color: #fff;
-				border-bottom: 1px solid #ddd;
-			}
-			#LoutiNav2 ul li.hover span {
-				background: #c00;
-				color: #fff;
-				display: block;
-			}
-			#LoutiNav2 ul li.hover span.active {
-				background: #c00;
-				color: #fff;
-				display: block;
-			}
-			#LoutiNav2 ul li span.active {
-				background: #fff;
-				color: #c00;
-				display: block;
-			}
-			
-			
-			/*#footer {
+		#LoutiNav {
+			width: 32px;
+			position: fixed;
+			top: 150px;
+			left: 2px;
+			border: 1px solid #ddd;
+			display: none;
+			z-index: 10;
+		}
+		
+		#LoutiNav ul li {
+			width: 32px;
+			height: 32px;
+			border-bottom: 1px dotted #DDDDDD;
+			list-style: none;
+			font-size: 12px;
+			color: #666;
+			text-align: center;
+			line-height: 32px;
+			position: relative;
+			cursor: pointer;
+		}
+		
+		#LoutiNav ul li span {
+			width: 32px;
+			height: 32px;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		
+		#LoutiNav ul li span {
+			display: none;
+		}
+		
+		#LoutiNav ul li.last {
+			background: #C00;
+			color: #fff;
+			border-bottom: 1px solid #ddd;
+		}
+		
+		#LoutiNav ul li.hover span {
+			background: #c00;
+			color: #fff;
+			display: block;
+		}
+		
+		#LoutiNav ul li.hover span.active {
+			background: #c00;
+			color: #fff;
+			display: block;
+		}
+		
+		#LoutiNav ul li span.active {
+			background: #fff;
+			color: #c00;
+			display: block;
+		}
+		
+		#main {
+			width: 1230px;
+			height: 300px;
+			margin: 0 auto;
+		}
+		
+		#main .Louti {
+			height: 0px;
+			width: 1230px;
+		}
+		/*右边*/
+		
+		#LoutiNav2 {
+			width: 32px;
+			position: fixed;
+			top: 300px;
+			right: 2px;
+			border: 1px solid #ddd;
+			z-index: 10;
+		}
+		
+		#LoutiNav2 ul li {
+			width: 32px;
+			height: 32px;
+			border-bottom: 1px dotted #DDDDDD;
+			list-style: none;
+			font-size: 12px;
+			color: #666;
+			text-align: center;
+			line-height: 32px;
+			position: relative;
+			cursor: pointer;
+			background: rgb(122, 110, 110);
+			display: block;
+		}
+		
+		#LoutiNav2 ul li span {
+			width: 32px;
+			height: 32px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			color: white;
+		}
+		
+		#LoutiNav2 ul li span {
+			display: none;
+		}
+		
+		#LoutiNav ul li.last {
+			background: #C00;
+			color: #fff;
+			border-bottom: 1px solid #ddd;
+		}
+		
+		#LoutiNav2 ul li.hover span {
+			background: #c00;
+			color: #fff;
+			display: block;
+		}
+		
+		#LoutiNav2 ul li.hover span.active {
+			background: #c00;
+			color: #fff;
+			display: block;
+		}
+		
+		#LoutiNav2 ul li span.active {
+			background: #fff;
+			color: #c00;
+			display: block;
+		}
+		/*#footer {
 				width: 1000px;
 				height: 400px;
 				background: red;
 				margin: 0 auto;
 			}*/
-			
-	
-		

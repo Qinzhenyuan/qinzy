@@ -73,7 +73,7 @@ $(function(){
 			})
 			
 			
-		
+//		获取右边购物车cookie
 			
 //			var $cartlist = $("#gou");
 //			var $gou = $(".ying");

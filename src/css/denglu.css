@@ -1,120 +1,122 @@
-body{
-    	margin: 0 auto;
-    	padding: 0;
-    }
-    #boxx{
-    
-    	background: rgb(244,9,39);
-    	padding:0  180px;
-    }
-    #logo{
-    	padding-left:180px;
-    }
-    
-    
-    /*背景图*/
-    	#content{
-    		width: 990px;;
-    		height: 475px;
-    		position: relative;
-    		background: url(../img/57e2355eNf3116e99.jpg) no-repeat left top;
-    		padding: 0 20px;
-    	}
-    	#box{
-    		width: 350px;
-    		height: 360px;
-    		background: white;
-    		position: absolute;
-    		right: 0px;
-    		top: 40px;
-    
-    	}	.links,.copyright{
-				text-align: center;
-			}
-			.links a{
-				font-size: 14px;
-				color:#666;
-				
-			}
-			.copyright{
-				padding-top: 20px;
-			}
-			.wei{
-				margin:20px 20px ;
-			}
-	     .tou{
-	     	font-size: 25px;
-	     	
-	     }
-	     .zc{
-	     	margin-left: 130px;
-	     	font-size: 16px;
-	     	color: red;
-	     	
-	     	
-	     }
-	     
-	     
-		.tishi{
-			width: 305px;
-			height: 27px;
-			border: 1px solid sandybrown;
-			text-align: center;
-			line-height: 26px;
-			font-size:14px;
-			background: url(../img/pwd-icons-new.png) no-repeat -93px -18px;
-			margin-bottom: 10px;
-			
-		}
-		.itxt ,.ipas{
-			height: 38px;
-			width: 305px;
-			border: 1px solid darkgray;
-			
-			line-height: 38px;
-			font-size: 17px;
-			margin-bottom:20px ;
-			/*background: url(../img/pwd-icons-new.png) no-repeat left top;*/
-			
-		}
-		.zid{
-			font-size: 13px;
-		
-		}
-		.wj{
-			margin-left: 170px;
-			font-size: 13px;
-		}
-		.del{
-			height: 30px;
-			width: 305px;
-			background:rgb(228,57,60);
-			text-align: center;
-			line-height: 30px;
-			font-size: 22px;
-			color: white;
-			margin: 15px 0 20px 0;
-			
-			
-		}
-		.hz{
-			font-size: 12px;
-			color: darkgray;
-			
-			
-		}
-		.hzd{
-			margin:10px;
-			
-		}
-		.hzd a{
-			
-			font-size: 13px;
-			color: #000000;
-		}
-		
-		
-		.did{
-			margin-left:1070px ;
-		}
-			
+body {
+	margin: 0 auto;
+	padding: 0;
+}
+
+#boxx {
+	background: rgb(244, 9, 39);
+	padding: 0 180px;
+}
+
+#logo {
+	padding-left: 180px;
+}
+
+
+/*背景图*/
+
+#content {
+	width: 990px;
+	;
+	height: 475px;
+	position: relative;
+	background: url(../img/57e2355eNf3116e99.jpg) no-repeat left top;
+	padding: 0 20px;
+}
+
+#box {
+	width: 350px;
+	height: 360px;
+	background: white;
+	position: absolute;
+	right: 0px;
+	top: 40px;
+}
+
+.links,
+.copyright {
+	text-align: center;
+}
+
+.links a {
+	font-size: 14px;
+	color: #666;
+}
+
+.copyright {
+	padding-top: 20px;
+}
+
+.wei {
+	margin: 20px 20px;
+}
+
+.tou {
+	font-size: 25px;
+}
+
+.zc {
+	margin-left: 130px;
+	font-size: 16px;
+	color: red;
+}
+
+.tishi {
+	width: 305px;
+	height: 27px;
+	border: 1px solid sandybrown;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	background: url(../img/pwd-icons-new.png) no-repeat -93px -18px;
+	margin-bottom: 10px;
+}
+
+.itxt,
+.ipas {
+	height: 38px;
+	width: 305px;
+	border: 1px solid darkgray;
+	line-height: 38px;
+	font-size: 17px;
+	margin-bottom: 20px;
+	/*background: url(../img/pwd-icons-new.png) no-repeat left top;*/
+}
+
+.zid {
+	font-size: 13px;
+}
+
+.wj {
+	margin-left: 170px;
+	font-size: 13px;
+}
+
+.del {
+	height: 30px;
+	width: 305px;
+	background: rgb(228, 57, 60);
+	text-align: center;
+	line-height: 30px;
+	font-size: 22px;
+	color: white;
+	margin: 15px 0 20px 0;
+}
+
+.hz {
+	font-size: 12px;
+	color: darkgray;
+}
+
+.hzd {
+	margin: 10px;
+}
+
+.hzd a {
+	font-size: 13px;
+	color: #000000;
+}
+
+.did {
+	margin-left: 1070px;
+}

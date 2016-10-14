@@ -1,5 +1,7 @@
 $(function(){
-
+       
+       
+//     加载下方购物车列表
 	var $box1 = $(".jiaz");
 				 var $ul = $('<ul/>');
 				 var $jiaz = $(".jiaz");

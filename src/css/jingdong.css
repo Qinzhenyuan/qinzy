@@ -1,262 +1,271 @@
 		a,
-			address,
-			b,
-			big,
-			blockquote,
-			body,
-			center,
-			cite,
-			code,
-			dd,
-			del,
-			div,
-			dl,
-			dt,
-			em,
-			fieldset,
-			font,
-			form,
-			h1,
-			h2,
-			h3,
-			h4,
-			h5,
-			h6,
-			html,
-			i,
-			iframe,
-			img,
-			ins,
-			label,
-			legend,
-			li,
-			ol,
-			p,
-			pre,
-			small,
-			span,
-			strong,
-			u,
-			ul,
-			var {
-				margin: 0;
-				padding: 0
-			}
-			
-	
-			ol,
-			ul {
-				list-style: none
-			}
-			
-			img {
-				border: 0;
-				vertical-align: middle
-			}
-			
-			em,
-			i,
-			u {
-				font-style: normal
-			}
-	
-			body {
-				
-				color: #666;
-				background: #fff;
-				font: "微软雅黑";
-				width: 1200px;
-			}
-			
-			a {
-				color: #666;
-				text-decoration: none
-			}
-			
-			a:hover {
-				color: #C81623
-			}
+		address,
+		b,
+		big,
+		blockquote,
+		body,
+		center,
+		cite,
+		code,
+		dd,
+		del,
+		div,
+		dl,
+		dt,
+		em,
+		fieldset,
+		font,
+		form,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		html,
+		i,
+		iframe,
+		img,
+		ins,
+		label,
+		legend,
+		li,
+		ol,
+		p,
+		pre,
+		small,
+		span,
+		strong,
+		u,
+		ul,
+		var {
+			margin: 0;
+			padding: 0
+		}
+		
+		ol,
+		ul {
+			list-style: none
+		}
+		
+		img {
+			border: 0;
+			vertical-align: middle
+		}
+		
+		em,
+		i,
+		u {
+			font-style: normal
+		}
+		
+		body {
+			color: #666;
+			background: #fff;
+			font: "微软雅黑";
+			width: 1200px;
+		}
+		
+		a {
+			color: #666;
+			text-decoration: none
+		}
+		
+		a:hover {
+			color: #C81623
+		}
 		/*头部	*/
-		.toubu{
-			font-size:13px;
-			margin:10px 5px 10px 5px ;
+		
+		.toubu {
+			font-size: 13px;
+			margin: 10px 5px 10px 5px;
 			height: 30px;
 			line-height: 30px;
-			background: rgb(241,241,241);
+			background: rgb(241, 241, 241);
 			width: 1230px;
 		}
-		.toubu .song{
-			margin:5px 300px 5px 50px;
+		
+		.toubu .song {
+			margin: 5px 300px 5px 50px;
 		}
-		.toubu a{
+		
+		.toubu a {
 			margin-left: 5px;
-			
 		}
 		
-		 #nav ul li{
-        	float: left;
-        	margin-left: 10px;
-        }
-       
+		#nav ul li {
+			float: left;
+			margin-left: 10px;
+		}
 		
-		#search1 .tuijian{
-			
+		#search1 .tuijian {
 			font-size: 12px;
 			margin-left: 5px;
 			float: left;
 		}
-			#search1{
-				float: left;
-			}
-		.ding{
-			width: 1200px;
-			height: 180px;
-			
-		}
-		
-		 #logo {
-		 	
-				width: 320px;
-				height: 94px;
-				display: block;
-				float: left;
-			   overflow: hidden;
-				
-			}
-	
 		
 		#search1 {
-			
-				float: left;
-				width: 542px;
-				margin-top: 10px;
-				margin-left: 70px;
-			}
-			
-			
-			#search1 .text {
-				float: left;
-				width: 370px;
-				height: 24px;
-				line-height: 24px;
-				color: #666;
-				padding: 4px;
-				margin-bottom: 4px;
-				border-width: 2px 0 2px 2px;
-				border-color: #B61D1D;
-				border-style: solid;
-				font-size: 14px;
-			
-			}
-			
-			#search1 .button {
-				float: left;
-				width: 82px;
-				height: 36px;
-				background: #B61D1D;
-				border: none;
-				line-height: 1;
-				color: #fff;
-				font-size: 16px;
-				cursor: pointer
-			}
-	/*gouwuche*/
-			#car{
-				float: left;
-			     width: 145px;
-				height: 40px;
-				text-align: center;
-				margin-left: 50px;
-				margin-top: 20px;
-				
-				
-				
-			}
-		
-			#car .cartu{
-				display: block;
-				width: 20px;
-				height: 25px;
-				background:url(../img/product_home_1.0.0.png) no-repeat left -386px;
-				margin-left: 10px;
-				float: left;
-			
-				
-				
-			}
-		  #car #gou{
-		  	/*overflow: hidden;*/
-		  	
-		  	border: 1px solid darkgray;
-		  }
-			#car img{
-				height: 100px;
-				margin-left: 30px;
-			}
-			
-#gou img { width: 120px; margin: 10px;}
- #gou li{position:relative;height:200px;}
- #gou .btn-close{position:absolute;top:0;right:0;padding:5px;}
- #gou .btn-close:hover{background-color:#f00;color:#fff;}
-  #gou .ying{
-    	display: none;
-    }
-  #gou .ying h3{
-  	font-size: 8px;
-  	text-align: center;
-  }   
-   #gou .ying li{
-  	font-size: 8px;
-  	text-align: center;
-  	padding-bottom: 10px;
-  } 
-			
-		
-/*底部*/
-
-			.links,.copyright{
-				text-align: center;
-			}
-			.links a{
-				font-size: 14px;
-				color:#666;
-				
-			}
-			.copyright{
-				padding-top: 20px;
-			}
-
-
-		.ditu img{
-			margin-left: 70px;
-			
+			float: left;
 		}
-			.dibu{
-				float: left;
-				margin:100px;
-				text-align: center;
-				font-size: 14px;
-				color:#666;
-				
-			}
-			
-			.footer{
-				overflow: hidden;
-				margin-top: 50px;
-				margin-left: 70px;
-			}
-	.footer ul{
-	float: left;
-	margin:10px 0 10px 70px;
-}
-.footer ul .foot-li1{
-	color: #999999;
-	font-size: 20px;
-	line-height: 40px;
-}
-.footer p{
-	
-	text-align: center;
-	clear: both;
-	margin: 20px 0;
-}
+		
+		.ding {
+			width: 1200px;
+			height: 180px;
+		}
+		
+		#logo {
+			width: 320px;
+			height: 94px;
+			display: block;
+			float: left;
+			overflow: hidden;
+		}
+		
+		#search1 {
+			float: left;
+			width: 542px;
+			margin-top: 10px;
+			margin-left: 70px;
+		}
+		
+		#search1 .text {
+			float: left;
+			width: 370px;
+			height: 24px;
+			line-height: 24px;
+			color: #666;
+			padding: 4px;
+			margin-bottom: 4px;
+			border-width: 2px 0 2px 2px;
+			border-color: #B61D1D;
+			border-style: solid;
+			font-size: 14px;
+		}
+		
+		#search1 .button {
+			float: left;
+			width: 82px;
+			height: 36px;
+			background: #B61D1D;
+			border: none;
+			line-height: 1;
+			color: #fff;
+			font-size: 16px;
+			cursor: pointer
+		}
+		/*购物车*/
+		
+		#car {
+			float: left;
+			width: 145px;
+			height: 40px;
+			text-align: center;
+			margin-left: 50px;
+			margin-top: 20px;
+		}
+		
+		#car .cartu {
+			display: block;
+			width: 20px;
+			height: 25px;
+			background: url(../img/product_home_1.0.0.png) no-repeat left -386px;
+			margin-left: 10px;
+			float: left;
+		}
+		
+		#car #gou {
+			/*overflow: hidden;*/
+			border: 1px solid darkgray;
+		}
+		
+		#car img {
+			height: 100px;
+			margin-left: 30px;
+		}
+		
+		#gou img {
+			width: 120px;
+			margin: 10px;
+		}
+		
+		#gou li {
+			position: relative;
+			height: 200px;
+		}
+		
+		#gou .btn-close {
+			position: absolute;
+			top: 0;
+			right: 0;
+			padding: 5px;
+		}
+		
+		#gou .btn-close:hover {
+			background-color: #f00;
+			color: #fff;
+		}
+		
+		#gou .ying {
+			display: none;
+		}
+		
+		#gou .ying h3 {
+			font-size: 8px;
+			text-align: center;
+		}
+		
+		#gou .ying li {
+			font-size: 8px;
+			text-align: center;
+			padding-bottom: 10px;
+		}
+		/*底部*/
+		
+		.links,
+		.copyright {
+			text-align: center;
+		}
+		
+		.links a {
+			font-size: 14px;
+			color: #666;
+		}
+		
+		.copyright {
+			padding-top: 20px;
+		}
+		
+		.ditu img {
+			margin-left: 70px;
+		}
+		
+		.dibu {
+			float: left;
+			margin: 100px;
+			text-align: center;
+			font-size: 14px;
+			color: #666;
+		}
+		
+		.footer {
+			overflow: hidden;
+			margin-top: 50px;
+			margin-left: 70px;
+		}
+		
+		.footer ul {
+			float: left;
+			margin: 10px 0 10px 70px;
+		}
+		
+		.footer ul .foot-li1 {
+			color: #999999;
+			font-size: 20px;
+			line-height: 40px;
+		}
+		
+		.footer p {
+			text-align: center;
+			clear: both;
+			margin: 20px 0;
+		}
